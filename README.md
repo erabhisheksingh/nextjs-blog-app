@@ -1,5 +1,7 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+[![Deploy App to Pages](https://github.com/erabhisheksingh/nextjs-blog-app/actions/workflows/nextjs.yml/badge.svg)](https://github.com/erabhisheksingh/nextjs-blog-app/actions/workflows/nextjs.yml)
+
 ## Getting Started
 
 First, run the development server:
