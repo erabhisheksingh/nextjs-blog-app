@@ -1,37 +1,35 @@
 .main {
+  padding: 1rem;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  padding: 6rem;
-  min-height: 100vh;
+  align-items: center; /* Centers the items horizontally */
+}
+
+.title {
+  padding: 2rem;/* Adjust the max-width as needed */
 }
 
 .description {
-  display: inherit;
-  justify-content: inherit;
-  align-items: inherit;
-  font-size: 0.85rem;
-  max-width: var(--max-width);
-  width: 100%;
-  z-index: 2;
-  font-family: var(--font-mono);
+  padding: 2rem;
 }
 
-.description a {
+.blogs {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.blogItem {
+  margin: 20px 20px; /* Adds some spacing between blog items */
+  padding: 2rem;
+  border: 5px solid #020202; /* Optional: Adds a border around each blog item */
+  border-radius: 8px; /* Optional: Adds rounded corners to each blog item */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow effect */
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 0.5rem;
-}
-
-.description p {
-  position: relative;
-  margin: 0;
-  padding: 1rem;
-  background-color: rgba(var(--callout-rgb), 0.5);
-  border: 1px solid rgba(var(--callout-border-rgb), 0.3);
-  border-radius: var(--border-radius);
+  flex-direction: column;
 }
 
 .code {
@@ -42,8 +40,8 @@
 .grid {
   display: grid;
   grid-template-columns: repeat(4, minmax(25%, auto));
-  max-width: 100%;
-  width: var(--max-width);
+  max-width: var(--max-width);
+  width: 100%;
 }
 
 .card {
@@ -70,7 +68,6 @@
   font-size: 0.9rem;
   line-height: 1.5;
   max-width: 30ch;
-  text-wrap: balance;
 }
 
 .center {
@@ -227,4 +224,16 @@
   to {
     transform: rotate(0deg);
   }
+}
+
+.mainnav ul {
+  display: flex;
+  justify-content: center;
+  margin: 50px;
+}
+
+.mainnav ul li {
+  margin: 0 24px;
+  list-style: none;
+  font-weight: bold;
 }
