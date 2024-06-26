@@ -3,7 +3,11 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center; /* Centers the items horizontally */
+  align-items: center;
+  background-image: url('../public/images/homepage-pic.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover; /* Centers the items horizontally */
 }
 
 .title {
