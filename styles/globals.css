@@ -95,3 +95,19 @@ a {
     color-scheme: light;
   }
 }
+nav {
+  background-color: #8d99ae;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  
+}
+
+nav ul li {
+  margin: 1rem 10rem;
+  list-style: none;
+  font-weight: bold;
+  color: white;
+}
