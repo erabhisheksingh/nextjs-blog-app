@@ -43,6 +43,7 @@
 }
 
 .blogItem {
+    cursor: pointer;
     margin: 20px 20px;
     /* Adds some spacing between blog items */
     padding: 2rem;
